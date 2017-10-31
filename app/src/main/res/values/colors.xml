@@ -13,8 +13,10 @@
 
 
     <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
     <color name="colorOrange">#e76620</color>
     <color name="colorGreen">#228b22</color>
     <color name="colorGray">#424242</color>
+    <color name="colorGrayLight">#9E9E9E</color>
     <color name="colorRed">#ce2029</color>
 </resources>

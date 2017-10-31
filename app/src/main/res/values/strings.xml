@@ -1,8 +1,5 @@
 <resources>
     <string name="app_name">Tutor</string>
-    <string name="login">Login</string>
-    <string name="please_enter_username">Please enter username.</string>
-    <string name="please_enter_password">Please enter password.</string>
     <string name="pick_place">Pick a place</string>
     <string name="default_info_title">title</string>
     <string name="default_info_snippet">snippet</string>
@@ -10,7 +7,7 @@
 
     <!-- Navigation Drawer menu labels -->
     <string name="nav_home">Home</string>
-    <string name="nav_photos">Photos</string>
+    <string name="nav_profile">Profile</string>
     <string name="nav_movies">Movies</string>
     <string name="nav_notifications">Notifications</string>
     <string name="nav_settings">Settings</string>
@@ -25,10 +22,34 @@
         <item>Settings</item>
     </string-array>
 
-    <!--Login Activity-->
+    <!--LoginType Activity-->
     <string name="tutor_login">Tutor Login</string>
     <string name="student_login">Student Login</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Login Activity-->
+
+    <string name="tutor">Tutor</string>
+    <string name="phone">Phone</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="new_user">New User? SignUp</string>
+    <string name="invalid_username_or_password">Invalid username or password.</string>
+    <string name="internet_not_available">Internet is not available.</string>
+    <string name="already_registered_with_the_current_phone_number">Already registered with the current phone number.</string>
+
+    <!--Registration Activity-->
+    <string name="tutor_reg">Tutor Registration</string>
+    <string name="student_reg">Student Registration</string>
+    <string name="registration">Registration</string>
+    <string name="please_enter_first_name">Please enter first name.</string>
+    <string name="please_enter_last_name.">Please enter last name.</string>
+    <string name="please_enter_email">Please enter email.</string>
+    <string name="please_enter_a_valid_email">Please enter a valid email.</string>
+    <string name="please_enter_phone">Please enter phone.</string>
+    <string name="please_enter_10_digit_phone_number">Please enter 10 digit phone number.</string>
+    <string name="please_enter_password">Please enter password.</string>
+    <string name="please_enter_confirm_password">Please enter confirm password.</string>
+    <string name="password_and_confirm_password_doesnt_match">Password and confirm password doesn\'t match.</string>
+
 </resources>

@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:text="Tutor"
+            android:text="@string/tutor"
             android:textColor="@color/colorWhite"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -57,7 +57,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@color/colorLightBlue"
-                android:text="Student Login"
+                android:text="@string/student_login"
                 android:textAllCaps="false"
                 android:textSize="18sp" />
 
@@ -72,7 +72,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@color/colorLightBlue"
-                android:text="Tutor Login"
+                android:text="@string/tutor_login"
                 android:textAllCaps="false"
                 android:textSize="18sp" />
         </LinearLayout>

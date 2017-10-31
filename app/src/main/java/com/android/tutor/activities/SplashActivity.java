@@ -25,7 +25,7 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
                 if (PreferenceConnector.readBoolean(SplashActivity.this, LOGIN_STATUS, false)) {
-                    Intent loginIntent = new Intent(SplashActivity.this, LoginTypeActivity.class);
+                    Intent loginIntent = new Intent(SplashActivity.this, DashboardActivity.class);
                     startActivity(loginIntent);
                 } else {
                     Intent loginIntent = new Intent(SplashActivity.this, LoginTypeActivity.class);

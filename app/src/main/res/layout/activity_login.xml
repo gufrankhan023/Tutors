@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimaryDark"
@@ -8,22 +10,23 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorLightBlue"
-        android:padding="15dp">
+        android:background="@color/colorLightBlue">
 
         <ImageView
             android:id="@+id/backIV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_arrow_back_black_24dp"
+            android:padding="15dp"
             android:tint="@color/colorWhite" />
 
         <TextView
             android:id="@+id/titleTV"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginLeft="10dp"
-            android:text="Tutor"
+            android:text="@string/tutor"
+            android:gravity="center_vertical"
             android:textColor="@color/colorWhite"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -46,7 +49,7 @@
             android:background="@drawable/edit_text_bg"
             android:drawableLeft="@drawable/ic_user"
             android:drawablePadding="5dp"
-            android:hint="User Name"
+            android:hint="@string/phone"
             android:imeOptions="actionNext"
             android:inputType="textEmailAddress"
             android:maxLines="1"
@@ -62,7 +65,7 @@
             android:background="@drawable/edit_text_bg"
             android:drawableLeft="@drawable/ic_password"
             android:drawablePadding="5dp"
-            android:hint="Password"
+            android:hint="@string/password"
             android:imeOptions="actionDone"
             android:inputType="textPassword"
             android:padding="10dp"
@@ -87,7 +90,7 @@
             android:layout_marginTop="10dp"
             android:gravity="center_horizontal"
             android:padding="5dp"
-            android:text="New User? SignIn"
+            android:text="@string/new_user"
             android:textColor="@color/colorLightBlue"
             android:textSize="16sp"
             android:textStyle="italic" />
