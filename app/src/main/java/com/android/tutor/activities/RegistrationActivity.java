@@ -1,11 +1,9 @@
 package com.android.tutor.activities;
 
 import android.app.ProgressDialog;
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
-import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -15,7 +13,6 @@ import com.android.tutor.R;
 import com.android.tutor.models.Student;
 import com.android.tutor.utilities.CommonMethods;
 import com.android.tutor.utilities.CustomDialogs;
-import com.android.tutor.utilities.PreferenceConnector;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -26,16 +23,12 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-import static com.android.tutor.utilities.Constants.LOGIN_STATUS;
 import static com.android.tutor.utilities.Constants.LOGIN_TYPE;
-import static com.android.tutor.utilities.Constants.PASSWORD;
 import static com.android.tutor.utilities.Constants.REGISTER;
 import static com.android.tutor.utilities.Constants.STUDENT_DB;
 import static com.android.tutor.utilities.Constants.STUDENT_LOGIN;
 import static com.android.tutor.utilities.Constants.TUTOR_DB;
 import static com.android.tutor.utilities.Constants.TUTOR_LOGIN;
-import static com.android.tutor.utilities.Constants.Tutor_Database;
-import static com.android.tutor.utilities.Constants.USER_NAME;
 
 public class RegistrationActivity extends AppCompatActivity implements CustomDialogs.ICustomAlertDialogListener {
 
